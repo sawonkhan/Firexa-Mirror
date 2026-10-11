@@ -15,10 +15,10 @@ const blocked_region = ['']; // add regional codes seperated by comma, eg. ['IN'
 const blocked_asn = []; // add ASN numbers from http://www.bgplookingglass.com/list-of-autonomous-system-numbers, eg. [16509, 12345]
 const CDN_VERSION = '2.5.9'; // auto-updated by npm run build
 const authConfig = {
-  "siteName": "GDI Test", // Website name
-  "client_id": "58094879805-4654k2k5nqdid5bavft7fvea5u9po0t1.apps.googleusercontent.com", // Client id from Google Cloud Console
-  "client_secret": "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", // Client Secret from Google Cloud Console
-  "refresh_token": "1//0gemE8Fxa0jK5CgYIARAAGBASNwF-L9IrXjKnUXwsGEvSDqIt1bAfKwcqoKbCNDDh0fTWHc77oaEta1OFH-TdvzGFEGRBCBEEycg", // Authorize token
+  "siteName": "Firexa Cloud", // Website name
+  "client_id": "229686061879-463qpb1p3i0vh804rfsq2df9gpe6e60n.apps.googleusercontent.com", // Client id from Google Cloud Console
+  "client_secret": "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", // Client Secret from Google Cloud Console
+  "refresh_token": "1//03WqjvqtZWzpaCgYIARAAGAMSNwF-L9IrQCYjtCdLUZKCnfsk3o7F5mU8sjlmj53i-4Vb-3qGzvqGdF8-_eypXv1gxhJa29EebsA", // Authorize token
   "service_account": false, // true if you're using Service Account instead of user account
   "service_account_json": randomserviceaccount, // don't touch this one
   "files_list_page_size": 100,
@@ -43,8 +43,8 @@ const authConfig = {
   "cors_domain": "*", // CORS domain for API requests, use * for all domains or specify your domain
   "users_list": [
     {
-      "username": "admin",
-      "password": "admin123",
+      "username": "",
+      "password": "",
     }
   ],
   "roots": [
