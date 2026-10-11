@@ -53,25 +53,8 @@ const authConfig = {
       "type": "root", // "root" | "folder" | "shared_drive"
       "name": "My Drive",
       "protect_file_link": false
-    },
-    {
-      "id": "1a8tF3p6l4wenfEQV5TpGKPT9otfze5em",
-      "type": "folder", // folder inside My Drive
-      "name": "Drive Folder",
-      "protect_file_link": false
-    },
-    {
-      "id": "1SPeBCBNFU3s0m2NPuIJzgyAQTUWU3wMx",
-      "type": "folder", // folder from shared drive context
-      "name": "Shared Folder",
-      "protect_file_link": false
-    },
-    {
-      "id": "0AI96FDDLWPh5Uk9PVA",
-      "type": "shared_drive", // Shared Drive (Team Drive)
-      "name": "Shared Drive",
-      "protect_file_link": false
-    },
+    }
+
   ]
 };
 const crypto_base_key = "3225f86e99e205347b4310e437253bfd"; // Example 256 bit key used, generate your own.
