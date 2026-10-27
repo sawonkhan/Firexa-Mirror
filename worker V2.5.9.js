@@ -16,9 +16,9 @@ const blocked_asn = []; // add ASN numbers from http://www.bgplookingglass.com/l
 const CDN_VERSION = '2.5.9'; // auto-updated by npm run build
 const authConfig = {
   "siteName": "Firexa Cloud", // Website name
-  "client_id": "229686061879-463qpb1p3i0vh804rfsq2df9gpe6e60n.apps.googleusercontent.com", // Client id from Google Cloud Console
-  "client_secret": "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", // Client Secret from Google Cloud Console
-  "refresh_token": "1//03WqjvqtZWzpaCgYIARAAGAMSNwF-L9IrQCYjtCdLUZKCnfsk3o7F5mU8sjlmj53i-4Vb-3qGzvqGdF8-_eypXv1gxhJa29EebsA", // Authorize token
+  "client_id": "229686061879-h3583h21hbjgk9kqrkuuet4ht1nvf29o.apps.googleusercontent.com", // Client id from Google Cloud Console
+  "client_secret": "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", // Client Secret from Google Cloud Console
+  "refresh_token": "1//0gXH8jDmv4dSoCgYIARAAGBASNwF-L9IrCOZjhazbDdeatxO0Rm-jkMFgALgc3l_Yif_k2b-WW-F4WXjk-wizmVxISgWO0FE_24g", // Authorize token
   "service_account": false, // true if you're using Service Account instead of user account
   "service_account_json": randomserviceaccount, // don't touch this one
   "files_list_page_size": 100,
